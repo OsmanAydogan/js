@@ -1,0 +1,32 @@
+body {
+    font-family: Verdana;
+    text-align: center;
+
+}
+
+#btn1 {
+    font-size: 3em;
+    color: white;
+    background-color: black;
+    padding: 5px 25px ;
+    margin-top:80px;
+    border-radius: 10px;
+    transition: background-color 0.5s;
+}
+
+#btn1:hover {
+    color: red;
+    cursor: pointer;
+
+}
+
+#lbl11 {
+    font-size: 50px;
+    
+}
+
+.lblq {
+    font-size: 50px;
+    
+}
+

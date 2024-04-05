@@ -1,0 +1,43 @@
+/*
+
+1 -> Body etiketi içinde bağlarız javscript kodunu. Ve body etiketinin içinde diğer html etiketlerinin en altında olması lazım, hata verir yoksa. 
+
+
+
+<!- 11 ->
+CHECK PROPERTY(radiobtn, checkbox, ifElse)
+
+
+
+<!- 12 ->
+TERNARY OPERATOR(age >= 18 ? "adult": "young")
+
+
+
+<!- 14 ->
+STRING METHODS
+
+
+
+<!- 15 ->
+STRING SLICING
+
+
+
+<!- 25 ->
+ARRAYS
+let fruits = ["apple","banana"];
+console.log(fruits[0]);
+fruits[0] = "strawberry";
+
+
+
+<!- 25 ->
+SPREAD OPERATORS
+
+let numbers = [12,42,67,17];
+let min = Math.min(numbers)
+console.log(...min);
+
+
+*/

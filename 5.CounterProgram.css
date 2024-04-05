@@ -1,0 +1,29 @@
+#counter {
+    display: block;
+    font-size: 10em;
+    text-align: center;
+}
+
+
+
+#btnContainer {
+    text-align: center;
+    
+}
+
+.but {
+    font-size: 50px;
+    padding: 20px 30px;
+    color: white;
+    background-color: black;
+    cursor: pointer; /* üzerine fare imleci gelidğinde ele dönüşür */
+    border-radius: 10px;
+    transition: background-color 0.5s;
+    margin-left: 30px;
+
+
+}
+.but:hover {
+    background-color: red;
+}
+
