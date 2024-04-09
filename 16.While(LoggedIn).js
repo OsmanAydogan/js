@@ -1,16 +1,21 @@
-let correctUsername = "kullanici";
-let correctPassword = "sifre";
+let kullanici_adi = "Osman";
+let sifre = "132713";
 
 let loggedIn = false;
 
-while (!loggedIn) {
-    let username = prompt("Kullanıcı adınızı giriniz:");
-    let password = prompt("Şifrenizi giriniz:");
+while(loggedIn==false){
 
-    if (username === correctUsername && password === correctPassword) {
-        loggedIn = true;
-        console.log("Giriş başarılı!");
-    } else {
-        console.log("Kullanıcı adı veya şifre yanlış. Lütfen tekrar deneyin.");
-    }
+const ka = window.prompt("Kullanıcı adınızı giriniz: ");
+const şf = window.prompt("Kullanıcı adınızı giriniz: ");
+
+
+if(ka == kullanici_adi && şf == sifre){
+    loggedIn = true;
+    console.log("Giriş Başarılı");
+
+}
+else{
+    console.log("Giriş Başarısız...")
+}
+
 }

@@ -39,5 +39,8 @@ let numbers = [12,42,67,17];
 let min = Math.min(numbers)
 console.log(...min);
 
+<!- 29 ->
+RANDOM NUMBER GENERATOR
+
 
 */
